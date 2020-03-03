@@ -1,9 +1,11 @@
 {
   "albums": [
     {
-      "albumTitle": "Innerspeaker",
+      "albumName": "Innerspeaker",
+      "releaseDate": "21 May 2010",
       "shortTitle": "Innerspeaker",
-      "description": "Innerspeaker is the debut studio album by Australian rock band Tame Impala. Recorded at a remote beach shack in Western Australia during the winter of 2009, the album was released on 21 May 2010 by Modular Recordings.",
+      "shortSummary": "Innerspeaker is the debut studio album by Australian rock band Tame Impala. Recorded at a remote beach shack in Western Australia during the winter of 2009, the album was released on 21 May 2010 by Modular Recordings. Innerspeaker was acclaimed by critics for its reminiscence of 1960s psychedelic rock and was recognized as the 83rd Best Album of the Decade So Far by Pitchfork in August 2014. The album peaked at number 4 on the ARIA Charts and was certified platinum in the country.",
+      "criticalReception": "Innerspeaker was released to critical acclaim, with many praising Parker's ability to put a modern spin on elements of 1960s psychedelic rock, creating a new and original sound. The album was awarded with being the feature album for Triple J Radio from the 16th of May to the 22nd. The album was nominated for a J Award for Australian Album of the Year on 26 July 2010. At the end of Triple J's Australian Music Month (November), it was announced as the winner. It was also nominated, and ultimately won, the Rolling Stone award for Album of the Year. It was also featured on the Triple J Hottest 100 Australian Albums of All Time in 2011, firstly being featured at number 18 in the list voted by Australian musicians and industry experts, and secondly being featured at number 19 on the public voted list. It was nominated for an ARIA Award in 2010 in the categories of Album of the Year and Best Rock Album and also for a WAMI Award in 2011 for Most Popular Album.",
       "imageURL": "tame_impala_innerspeaker.png",
       "songs": [
         "It Is Not Meant To Be",
@@ -16,12 +18,15 @@
         "Expectation",
         "Runway Houses City Clouds",
         "I Don't Really Mind"
-      ]
+      ],
+      "certifications": ["aria-award.png"]
     },
     {
-      "albumTitle": "Lonerism",
+      "albumName": "Lonerism",
+      "releaseDate": "5 October 2012",
       "shortTitle": "Lonerism",
-      "description": "Lonerism is the second studio album by the Australian rock band Tame Impala, released on 5 October 2012 by Modular Recordings. Like the band's debut studio album, Innerspeaker (2010), Lonerism was written, recorded, performed, and produced by Kevin Parker, with live member Jay Watson contributing on two tracks. Recorded mostly in Perth, Australia, and Paris, France, Lonerism builds on the psychedelic sound of its predecessor by featuring fewer guitars and more synthesisers and samples.",
+      "shortSummary": "Lonerism is the second studio album by the Australian rock band Tame Impala, released on 5 October 2012 by Modular Recordings. Like the band's debut studio album, Innerspeaker (2010), Lonerism was written, recorded, performed, and produced by Kevin Parker, with live member Jay Watson contributing on two tracks. Recorded mostly in Perth, Australia, and Paris, France, Lonerism builds on the psychedelic sound of its predecessor by featuring fewer guitars and more synthesisers and samples.",
+      "criticalReception": "Lonerism received widespread critical acclaim from music critics. Metacritic, which assigns a normalised rating out of 100 to reviews from mainstream critics, reported an average score of 88, based on 35 reviews, described as 'universal acclaim'. Lonerism has received highly favorable reviews from the likes of Pitchfork, NME, Allmusic, and Spin. The album also holds an 8.5 overall rating from the UK-based review aggregator AnyDecentMusic?.",
       "imageURL": "tame_impala_lonerism.jpg",
       "songs": [
         "Be Above It",
@@ -36,13 +41,16 @@
         "She Just Won't Believe Me",
         "Nothing That Has Happened So Far Has Been Anything We Could Control",
         "Sun's Coming Up"
-      ]
+      ],
+      "certifications": ["aria-award.png", "bpi-award.png"]
     },
     {
-      "albumTitle": "Currents",
+      "albumName": "Currents",
+      "releaseDate": "17 July 2015",
       "shortTitle": "Currents",
-      "description": "Currents is the third studio album by Australian musical project Tame Impala. It was released on 17 July 2015 by Modular Recordings and Universal Music Australia. In the United States it was released by Interscope Records and Fiction Records, while Caroline International released it in other international regions. Like the group's previous two albums, Currents was written, recorded, performed, and produced by primary member Kevin Parker. For the first time, Parker mixed the music and recorded all instruments by himself; the album featured no other collaborators.",
-      "imageURL": "tame_Impala_currents.png",
+      "shortSummary": "Currents is the third studio album by Australian musical project Tame Impala. It was released on 17 July 2015 by Modular Recordings and Universal Music Australia. In the United States it was released by Interscope Records and Fiction Records, while Caroline International released it in other international regions. Like the group's previous two albums, Currents was written, recorded, performed, and produced by primary member Kevin Parker. For the first time, Parker mixed the music and recorded all instruments by himself; the album featured no other collaborators.",
+      "criticalReception": "Currents received acclaim from music critics. On Metacritic, the album holds an average critic score of 84, based on 38 critics, indicating 'universal acclaim'. Ian Cohen of Pitchfork gave the album a 'Best New Music' designation, saying, 'Nearly every proper song on Currents is a revelatory statement of Parker's range and increasing expertise as a producer, arranger, songwriter, and vocalist while maintaining the essence of Tame Impala'. Cohen compared the record to others such as Loveless, Kid A, and Yankee Hotel Foxtrot, writing, 'it's the result of a supernaturally talented obsessive trying to perfect music while redefining their relationship to album-oriented rock.' Spin's Harley Brown called it 'the purest — and most complex — distillation of everything that makes the band such a nearly physical pleasure to listen to'. Brown added, 'The real magic of Currents, though, is in how Parker so effectively (and genuinely, for the most part) manipulates the listener's emotions without necessarily revealing any himself.' Alex Denney of NME praised Parker for his musical transition, writing, 'Fuzzed-out guitars simply aren't where Parker's head is at now, which strikes us as a fair trade-off from a producer pushing at the outer reaches of his talent.'",
+      "imageURL": "tame_impala_currents.png",
       "songs": [
         "Let It Happen",
         "Nangs",
@@ -57,12 +65,20 @@
         "Reality In Motion",
         "Love/Paranoia",
         "Same Person, Same Old Mistakes"
+      ],
+      "certifications": [
+        "aria-award.png",
+        "bpi-award.png",
+        "riaa-award.png",
+        "snep-award.png"
       ]
     },
     {
-      "albumTitle": "The Slow Rush",
+      "albumName": "The Slow Rush",
+      "releaseDate": "14 February 2020",
       "shortTitle": "The_Slow_Rush",
-      "description": "The Slow Rush is the fourth studio album by Australian musical project Tame Impala, released on 14 February 2020. It follows the 2015 album Currents and the 2019 singles 'Patience' and 'Borderline', with the latter serving as the first single from the album.",
+      "shortSummary": "The Slow Rush is the fourth studio album by Australian musical project Tame Impala, released on 14 February 2020. It follows the 2015 album Currents and the 2019 singles 'Patience' and 'Borderline', with the latter serving as the first single from the album.",
+      "criticalReception": "The Slow Rush was met with widespread acclaim from listeners and music critics. At Metacritic, which assigns a normalised rating out of 100 to reviews from mainstream publications, the album received an average score of 80, based on 26 reviews. Aggregator AnyDecentMusic? gave it 7.8 out of 10, based on their assessment of the critical consensus.",
       "imageURL": "tame_impala_the_slow_rush.jpg",
       "songs": [
         "One More Year",
@@ -77,7 +93,8 @@
         "It Might Be Time",
         "Glimmer",
         "One More Hour"
-      ]
+      ],
+      "certifications": []
     }
   ]
 }

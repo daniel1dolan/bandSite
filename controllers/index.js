@@ -6,29 +6,13 @@ let data = require("../data/data.json");
 router.get("/", (req, res) => {
   let albumPhotos = [];
   let pageAlbums = [];
-  data.speakers.forEach(albumObj => {
-    albumPhotos = albumPhotos.concat(speakerObj.cover);
+  data.albums.forEach(albumObj => {
+    albumPhotos = albumPhotos.concat(albumObj.imageURL);
+    pageAlbums.push(albumObj);
   });
   res.render("index", {
-    imageURL: albumPhotos
-  });
-});
-
-router.get("/:albumID", (req, res) => {
-  let albumPhotos = [];
-  let pageAlbums = [];
-  data.speakers.forEach(albumObj => {
-    if (albumObj.shortTitle == req.param("albumID")) {
-      pageAlbums.push(albumObj);
-      albumPhotos = albumObj.imageURL;
-    }
-  });
-  res.render("index", {
-    pageTitle: "",
-    albumTitle: pageAlbums[0].albumTitle,
     imageURL: albumPhotos,
-    allAlbums: pageAlbums,
-    pageID: ""
+    albumInfo: pageAlbums
   });
 });
 
