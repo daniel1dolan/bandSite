@@ -1,0 +1,79 @@
+{
+  "albums": [
+    {
+      "albumTitle": "Innerspeaker",
+      "shortTitle": "Innerspeaker",
+      "imageURL": "tame_impala_innerspeaker.png",
+      "songs": [
+        "It Is Not Meant To Be",
+        "Desire Be Desire Go",
+        "Alter Ego",
+        "Lucidity",
+        "Why Won't You Make Up Your Mind?",
+        "Solitude Is Bliss",
+        "Jeremy's Storm",
+        "Expectation",
+        "Runway Houses City Clouds",
+        "I Don't Really Mind"
+      ]
+    },
+    {
+      "albumTitle": "Lonerism",
+      "shortTitle": "Lonerism",
+      "imageURL": "tame_impala_lonerism.jpg",
+      "songs": [
+        "Be Above It",
+        "Endors Toi",
+        "Apocalypse Dreams",
+        "Mind Mischief",
+        "Music To Walk Home By",
+        "Why Won't They Talk To Me?",
+        "Feels Like We Only Go Backwards",
+        "Keep On Lying",
+        "Elephant",
+        "She Just Won't Believe Me",
+        "Nothing That Has Happened So Far Has Been Anything We Could Control",
+        "Sun's Coming Up"
+      ]
+    },
+    {
+      "albumTitle": "Currents",
+      "shortTitle": "Currents",
+      "imageURL": "tame_Impala_currents.png",
+      "songs": [
+        "Let It Happen",
+        "Nangs",
+        "The Moment",
+        "Yes I'm Changing",
+        "Eventually",
+        "Gossip",
+        "The Less I Know The Better",
+        "Past Life",
+        "Disciples",
+        "'Cause I'm A Man",
+        "Reality In Motion",
+        "Love/Paranoia",
+        "Same Person, Same Old Mistakes"
+      ]
+    },
+    {
+      "albumTitle": "The Slow Rush",
+      "shortTitle": "The_Slow_Rush",
+      "imageURL": "tame_impala_the_slow_rush.jpg",
+      "songs": [
+        "One More Year",
+        "Instant Destiny",
+        "Borderline",
+        "Posthumous Forgiveness",
+        "Breathe Deeper",
+        "Tomorrow's Dust",
+        "On Track",
+        "Lost In Yesterday",
+        "Is It True",
+        "It Might Be Time",
+        "Glimmer",
+        "One More Hour"
+      ]
+    }
+  ]
+}
