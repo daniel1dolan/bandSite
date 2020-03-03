@@ -3,6 +3,7 @@
     {
       "albumTitle": "Innerspeaker",
       "shortTitle": "Innerspeaker",
+      "description": "Innerspeaker is the debut studio album by Australian rock band Tame Impala. Recorded at a remote beach shack in Western Australia during the winter of 2009, the album was released on 21 May 2010 by Modular Recordings.",
       "imageURL": "tame_impala_innerspeaker.png",
       "songs": [
         "It Is Not Meant To Be",
@@ -20,6 +21,7 @@
     {
       "albumTitle": "Lonerism",
       "shortTitle": "Lonerism",
+      "description": "Lonerism is the second studio album by the Australian rock band Tame Impala, released on 5 October 2012 by Modular Recordings. Like the band's debut studio album, Innerspeaker (2010), Lonerism was written, recorded, performed, and produced by Kevin Parker, with live member Jay Watson contributing on two tracks. Recorded mostly in Perth, Australia, and Paris, France, Lonerism builds on the psychedelic sound of its predecessor by featuring fewer guitars and more synthesisers and samples.",
       "imageURL": "tame_impala_lonerism.jpg",
       "songs": [
         "Be Above It",
@@ -39,6 +41,7 @@
     {
       "albumTitle": "Currents",
       "shortTitle": "Currents",
+      "description": "Currents is the third studio album by Australian musical project Tame Impala. It was released on 17 July 2015 by Modular Recordings and Universal Music Australia. In the United States it was released by Interscope Records and Fiction Records, while Caroline International released it in other international regions. Like the group's previous two albums, Currents was written, recorded, performed, and produced by primary member Kevin Parker. For the first time, Parker mixed the music and recorded all instruments by himself; the album featured no other collaborators.",
       "imageURL": "tame_Impala_currents.png",
       "songs": [
         "Let It Happen",
@@ -59,6 +62,7 @@
     {
       "albumTitle": "The Slow Rush",
       "shortTitle": "The_Slow_Rush",
+      "description": "The Slow Rush is the fourth studio album by Australian musical project Tame Impala, released on 14 February 2020. It follows the 2015 album Currents and the 2019 singles 'Patience' and 'Borderline', with the latter serving as the first single from the album.",
       "imageURL": "tame_impala_the_slow_rush.jpg",
       "songs": [
         "One More Year",
