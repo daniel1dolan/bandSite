@@ -4,5 +4,9 @@ const router = express.Router();
 let data = require("../data/feedback.json");
 
 router.get("/feedback", (req, res) => {
-  res.render("feedback");
+  res.render("feedback", {
+    pageTitle: "Feedback"
+  });
 });
+
+module.exports = router;
