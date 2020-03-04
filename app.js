@@ -7,6 +7,7 @@ app.set("view engine", "ejs");
 
 app.use(require("./controllers/index"));
 app.use(require("./controllers/album"));
+app.use(require("./controllers/feedback"));
 
 app.listen(3000, () => {
   console.log("Listening on port 3000.");
