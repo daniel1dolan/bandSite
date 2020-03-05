@@ -5,6 +5,7 @@ app.use(express.static("public"));
 
 app.set("view engine", "ejs");
 
+//routers are used by the app.
 app.use(require("./controllers/index"));
 app.use(require("./controllers/album"));
 app.use(require("./controllers/feedback"));
