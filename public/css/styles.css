@@ -102,6 +102,8 @@ h4 {
 }
 .feedback-form {
   font-family: "Michroma", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 20px;
 }
 h5 {
   letter-spacing: 3px;
@@ -114,7 +116,6 @@ h5 {
   height: 400px;
   background-color: black;
   overflow: hidden;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 .positionTop {
@@ -132,4 +133,32 @@ h5 {
     top: 0px;
     left: 0px;
   }
+}
+.feedback,
+.feedback-form-title {
+  font-size: 2rem;
+}
+
+.feedback-title {
+  font-size: 1.2em;
+}
+
+.feedback-form-title {
+  font-size: 2em;
+}
+
+.feedback-name {
+  font-size: 0.6em;
+  font-weight: 100;
+}
+.feedback-item {
+  border-bottom: 1px solid gray;
+  padding: 8px 0;
+}
+
+.feedback-item:last-of-type {
+  border-bottom: none;
+}
+.feedback-delete {
+  margin: 5px;
 }
