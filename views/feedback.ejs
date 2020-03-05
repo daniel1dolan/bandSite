@@ -16,8 +16,63 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Michroma&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar1"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Albums
+                </a>
+                <div
+                  style="background-color: transparent"
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <% albumInfo.forEach((albumObj)=>{ %>
+                  <a
+                    class="dropdown-item"
+                    href="/album/<%= albumObj.shortTitle %>"
+                    ><%= albumObj.albumName%></a
+                  >
+                  <% })%>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/feedback">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="row">
+        <div class="col-4">
     <form class="feedback-form">
       <div class="form-group">
         <label for="feedback-form-name">Name</label>
@@ -48,8 +103,12 @@
           id="feedback-form-message"
           rows="6"
         ></textarea>
-      </div>
+    </div>
+      
       <button type="submit" class="btn btn-default pull-right">Submit</button>
+    </div>
+    <div class="col-4"><h3>Recent Feedback</h3></div>
+    </div>
     </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
