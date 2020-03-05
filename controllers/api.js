@@ -36,4 +36,20 @@ router.post("/api", (req, res) => {
   );
 });
 
+//Delete request and have id on the url
+router.delete("/api/:id", (req, res) => {
+  feedbackData.splice(req.params.id, 1);
+  fs.writeFile(
+    "data/feedback.json",
+    JSON.stringify(feedbackData),
+    "utf8",
+    err => {
+      if (err) {
+        console.log(err);
+      }
+      res.json(feedbackData);
+    }
+  );
+});
+
 module.exports = router;

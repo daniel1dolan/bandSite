@@ -41,6 +41,24 @@ form.addEventListener("submit", e => {
     });
 });
 
+document.querySelector("#feedback-results").addEventListener("click", e => {
+  console.log(e.target.querySelector("span"));
+  if (
+    e.target.querySelector("span").className == "glyphicon glyphicon-remove"
+  ) {
+    //fetch with delete method
+    fetch("/api/" + e.target.querySelector("span").id, {
+      method: "DELETE"
+    })
+      .then(response => {
+        return response.json();
+      })
+      .then(feedbackData => {
+        updateFeedback(feedbackData);
+      });
+  }
+});
+
 let setUp = () => {
   fetch("/api")
     .then(response => {
