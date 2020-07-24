@@ -14,15 +14,15 @@ app.use(require("./controllers/feedback"));
 app.use(require("./controllers/api"));
 app.use(require("./controllers/socket"));
 
-io.on("connection", socket => {
-  console.log("user is conencted");
-  socket.on("chat message", msg => {
-    io.emit("chat message", msg);
-  });
-});
-http.listen(3000, () => {
-  console.log("listening on port 3000");
-});
+// io.on("connection", socket => {
+//   console.log("user is conencted");
+//   socket.on("chat message", msg => {
+//     io.emit("chat message", msg);
+//   });
+// });
+// http.listen(3000, () => {
+//   console.log("listening on port 3000");
+// });
 
 app.listen(3000, () => {
   console.log("Listening on port 3000.");
